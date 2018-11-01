@@ -8,10 +8,14 @@ namespace Lab12GC
 {
     class Student : Person
     {
-        private string program;
-        private int year;
-        private double fee;
+        protected string program;
+        protected int year;
+        protected double fee;
 
+        public Student()
+        {
+
+        }
         public Student(string Name, string Address, string Program, int Year, double Fee):base(Name, Address)
         {
             program = Program;

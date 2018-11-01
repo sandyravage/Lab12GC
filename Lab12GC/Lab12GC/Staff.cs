@@ -8,8 +8,8 @@ namespace Lab12GC
 {
     class Staff : Person
     {
-        private string school;
-        private double pay;
+        protected string school;
+        protected double pay;
 
         public Staff(string Name, string Address, string School, double Pay):base(Name,Address)
         {

@@ -8,8 +8,13 @@ namespace Lab12GC
 {
     class Person
     {
-        private string name;
-        private string address;
+        protected internal string name;
+        protected string address;
+
+        public Person()
+        {
+
+        }
 
         public Person(string Name, string Address)
         {
